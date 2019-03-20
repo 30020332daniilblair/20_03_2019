@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
@@ -83,9 +79,50 @@ namespace ConsoleApp1
             }
             while (start1 <= finish1);
             Console.ReadLine();
-
-
             
+            
+            //Task 3
+
+
+            Console.WriteLine(" The for loop");
+            Console.ReadLine();
+            Console.WriteLine("Number\t\tSquare\t\tCube\t\t");
+
+            for (int i = 0; i <= 10; i++)
+
+
+            {
+                Console.WriteLine($"{i}\t\t{i * i}\t\t{i * i * i}");
+
+
+            }
+            Console.ReadLine();
+
+            Console.WriteLine("The While Loop");
+            Console.ReadLine();
+
+            int start2 = 0;
+            int finish2 = 10;
+            while (start2 <= finish2)
+            {
+                Console.WriteLine($"{start2}\t\t{start2 * start2}\t\t{start2 * start2 * start2}");
+                start2++;
+            }
+            Console.ReadLine();
+
+            Console.WriteLine("The do while loop");
+            Console.ReadLine();
+            start2 = 0;
+            do
+            {
+                Console.WriteLine($"{start2}\t\t{start2 * start2}\t\t{start2 * start2 * start2}");
+                start2++;
+
+            }
+            while (start2 <= finish2);
+            Console.ReadLine();
+
+
         }
     }
 }
